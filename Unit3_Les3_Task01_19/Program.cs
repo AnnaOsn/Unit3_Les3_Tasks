@@ -8,7 +8,7 @@
 
 // 23432 -> да
 Console.Write("Enter the number: ");
-string number = Console.ReadLine();
+string number = Console.ReadLine()!;
 int Length = number.Length;
 if (Length == 5)
 {
